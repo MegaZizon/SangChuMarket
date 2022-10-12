@@ -19,10 +19,8 @@ int main(){
 	for(i=2; i!=strlen(T); i++){
 		if(S[i]!=T[i]){
 			if(S[i-1]==S[i-2]){
-				
 				Move(S,i);
 				i--;
-				continue;
 			}
 			else{
 				printf("\nNO\n");
@@ -33,7 +31,7 @@ int main(){
 	
 	printf("\nYES\n");
 	
-	printf("%s",S);
+	//printf("%s",S);
 }
 
 
