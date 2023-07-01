@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+/* 메신저 전체 스타일 */
+.messenger {
+  width: 405px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+/* 헤더 스타일 */
+.messenger-header {
+  padding: 10px;
+  background-color: #2f7328;
+  color: white;
+  text-align: center;  
+}
+#chatt{
+	height:465px;
+}
+
+#msg_back{
+  position: fixed;
+  text-align: left;
+  border-radius:3px;
+  cursor: pointer;
+  background-color:#1b460a;
+  color:#f5f5f5;
+  padding-left:5px;
+  padding-right:5px;
+}
+/* 입력 폼 스타일 */
+.message-form {
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.message-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-form button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #2f7328;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#send_textbox{
+    width: 363px;
+}
+.message-form button:hover {
+  background-color: #315837;
+}
+
+
+.msglist{
+    display: block;
+    width: 100%;
+    height: 430px;
+    overflow-y: auto;
+}
+
+.recive__{
+    
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+}
+.send__{
+    font-size: 15px;
+    text-align: right;
+    width: 100%;
+}
+.recive__msg{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 7px;
+    word-break:break-all
+    
+}
+.send__msg{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(106, 191, 67);
+    border-radius: 7px;
+    word-break:break-all
+}
+
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+.recived__msg{
+    padding: 10px;
+    padding-left:10px;
+    padding-right:60px;
+    margin: 10px;
+    border-radius: 7px;
+    word-break:break-all;
+    text-align: left;
+    background-color: rgb(202, 202, 202);
+    font-size: 15px;
+    
+}
+.recived__{
+    width: 100%;
+}
+.reading_yes{
+    font-size: 12px;
+    display: inline;
+    position: relative;
+    top:-40px;
+    left: 350px;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+}
+.reading_no{
+    font-size: 12px;
+    display: inline;
+    position: relative;
+    top:-40px;
+    left: 340px;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: right;
+    color: #000000;
+    background-color: rgb(246, 223, 16);
+}
