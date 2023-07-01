@@ -87,7 +87,15 @@
 
 
 3. 메세지 알림기능은 is Read가 0이고 받는사람이 자신이라면 알림이 표시되도록 하였고(msgToMe 메소드) 알림을 확인할경우 isRead를 1로 update 하도록 하였습니다(msgRead 메소드)
-  
+
+
+<a href="https://github.com/MegaZizon/SangChuMarket/blob/main/src/main/webapp/message/message.jsp">message.jsp</a>
+
+
+<a href="https://github.com/MegaZizon/SangChuMarket/blob/main/src/main/webapp/message/message_main.jsp">message_main.jsp</a>
+
+
+<a href="https://github.com/MegaZizon/SangChuMarket/blob/main/src/main/java/msg/MsgDAO.java">MsgDAO.java</a>
 
 </details>
 
