@@ -123,6 +123,7 @@ TABLE Msg
 </details>
 
 <!--
+
 <details><summary><h4>MVC 모델 1</h4> </summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
@@ -135,7 +136,9 @@ TABLE Msg
 하지만 사용하면서 출력을 위한 뷰 코드와 로직처리를 위한 자바 코드 등이 뒤섞여 나중에는 유지보수가 매우 어려워지는 것을 느꼈습니다. 
 </details>
 
-</details> -->
+</details> 
+
+-->
 
 ## 🚩 구현 결과
 
