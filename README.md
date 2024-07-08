@@ -131,10 +131,10 @@ TABLE Msg
 <!--  ![image](https://github.com/MegaZizon/SangChuMarket/assets/105596059/955710bc-b54b-49da-8dc0-8ce25f9b12ac) -->
 
 
-상추마켓은 MVC모델 1 구조를 사용하였습니다. View 와 Controller 모두 JSP가 담당하며 Model은 JavaBeans에서 담당합니다. 
+<!-- 상추마켓은 MVC모델 1 구조를 사용하였습니다. View 와 Controller 모두 JSP가 담당하며 Model은 JavaBeans에서 담당합니다. 
 구조가 단순하여 익히고 적용하기가 쉽기 때문에 이 구조를 사용하였습니다.
 하지만 사용하면서 출력을 위한 뷰 코드와 로직처리를 위한 자바 코드 등이 뒤섞여 나중에는 유지보수가 매우 어려워지는 것을 느꼈습니다. 
-</details>
+</details> -->
 
 </details> 
 
