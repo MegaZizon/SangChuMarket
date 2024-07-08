@@ -122,13 +122,13 @@ TABLE Msg
 
 </details>
 
-<!--
+ 
 
-<details><summary><h4>MVC 모델 1</h4> </summary>
+<!-- <details><summary><h4>MVC 모델 1</h4> </summary> -->
 
 <!-- summary 아래 한칸 공백 두어야함 -->
 
-![image](https://github.com/MegaZizon/SangChuMarket/assets/105596059/955710bc-b54b-49da-8dc0-8ce25f9b12ac)
+<!--  ![image](https://github.com/MegaZizon/SangChuMarket/assets/105596059/955710bc-b54b-49da-8dc0-8ce25f9b12ac) -->
 
 
 상추마켓은 MVC모델 1 구조를 사용하였습니다. View 와 Controller 모두 JSP가 담당하며 Model은 JavaBeans에서 담당합니다. 
@@ -138,7 +138,6 @@ TABLE Msg
 
 </details> 
 
--->
 
 ## 🚩 구현 결과
 
